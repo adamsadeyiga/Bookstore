@@ -1,8 +1,8 @@
 # Bookstore API
 
 This is a simple Django project that provides an API for managing books and authors.
-Name: Bookstore
-Author: Adams Adeyiga
+<br>Name: Bookstore
+<br>Author: Adams Adeyiga
 
 ## Setup
 
