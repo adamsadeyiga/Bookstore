@@ -22,6 +22,7 @@ def books_by_author(request, author_id):
 
 @api_view(['GET'])
 def authors_with_books(request):
+    print("authors_with_books view called")
     authors = Author.objects.annotate(book_count=Count('books')).filter(book_count__gt=0)
     return Response({'authors': [author.name for author in authors]})
 
