@@ -21,3 +21,15 @@ This is a simple Django project that provides an API for managing books and auth
     ```bash 
     source bookstoreEnv/bin/activate
 
+5. Install the required dependencies:
+    ```bash
+    pip install -r requirements.txt
+
+6. Apply the migrations:
+    ```bash 
+    python manage.py migrate
+
+7. Run the development server:
+    ```bash
+    python manage.py runserver
+
