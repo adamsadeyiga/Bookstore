@@ -53,23 +53,23 @@ You can use tools like cURL or Postman to interact with the API. Here are some e
 ### List all authors:
 ```bash
     curl -X GET http://127.0.0.1:8000/api/authors/
-
+```
 ### Create a new author:
 ```bash
     curl -X POST -H "Content-Type: application/json" -d '{"name": "Adams Adeyiga", "birth_date": "1980-01-01"}' http://127.0.0.1:8000/api/authors/
-
+```
 ### Retrieve a specific author:
 ```bash
     curl -X GET http://127.0.0.1:8000/api/authors/1/
-
+```
 ### Update a specific author:
 ```bash
     curl -X PUT -H "Content-Type: application/json" -d '{"name": "Updated Name", "birth_date": "1980-01-01"}' http://127.0.0.1:8000/api/authors/1/
-
+```
 ### Delete a specific author:
 ```bash
 curl -X DELETE http://127.0.0.1:8000/api/authors/1/
-
+```
 ## Additional API Endpoints for ORM Queries
 ### Books by a Specific Author
 
