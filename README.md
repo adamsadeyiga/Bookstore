@@ -34,13 +34,13 @@ This is a simple Django project that provides an API for managing books and auth
     python manage.py runserver
 
 ## API Endpoints
-###Authors
+### Authors
     GET /api/authors/ - List all authors
     POST /api/authors/ - Create a new author
     GET /api/authors/<id>/ - Retrieve a specific author
     PUT /api/authors/<id>/ - Update a specific author
     DELETE /api/authors/<id>/ - Delete a specific author
-###Books
+### Books
     GET /api/books/ - List all books
     POST /api/books/ - Create a new book
     GET /api/books/<id>/ - Retrieve a specific book
