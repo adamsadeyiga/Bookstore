@@ -70,4 +70,17 @@ You can use tools like cURL or Postman to interact with the API. Here are some e
 ```bash
 curl -X DELETE http://127.0.0.1:8000/api/authors/1/
 
+## Additional API Endpoints for ORM Queries
+### Books by a Specific Author
+
+- **GET /api/books/by-author/\<author_id\>/** - List all books by a specific author
+
+### Authors with at Least One Book
+
+- **GET /api/authors/with-books/** - List all authors who have published at least one book
+
+### Most Recent Book Published
+
+- **GET /api/books/most-recent/** - Retrieve the most recent book published
+
 # Enjoy!
